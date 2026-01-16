@@ -27,3 +27,52 @@ header{
     
 }
 
+.PR-Profile{
+  text-align: center;
+  padding-top: 35px;
+  background: rgb(42, 168, 218);
+  color: white;
+  padding-bottom: 20px;
+  
+  
+}
+
+.PR-Profile img{
+    margin-bottom: 20px;
+}
+
+.PR-Profile h1{
+    margin-bottom: 20px;
+}
+
+.PR-Profile h2{
+    margin-bottom: 20px;
+}
+
+.PR-Profile p{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(38, 15, 187);
+    color: white;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width:750px) {
+
+    header{
+        display: inline-block;
+        justify-content: center;
+    }
+}
