@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+    padding: 35px;
+    background-color: rgb(15, 15, 81);
+    color: white;
+}
+
+.HD-Person-Nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.HD-Person-Nav ul li{
+    list-style: none;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
