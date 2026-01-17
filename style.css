@@ -69,10 +69,15 @@ button:hover{
     color: black;
 }
 
-@media (max-width:750px) {
+.PR-Profile-About{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    padding-top: 10vh;
+}
 
-    header{
-        display: inline-block;
-        justify-content: center;
-    }
+.PR-Profile-About-Left{
+    width: 30vw;
+    text-align: justify;
 }
