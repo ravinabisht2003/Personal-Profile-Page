@@ -45,9 +45,6 @@ header{
     margin-bottom: 20px;
 }
 
-.PR-Profile h1{
-    margin-bottom: 20px;
-}
 
 .PR-Profile h2{
     margin-bottom: 20px;
@@ -74,7 +71,7 @@ button:hover{
 }
  
 .PR-Profile-About{
-    padding: 5vh 20vw 10vh  20vw ;
+    padding: 5vh 20vw 20vh 20vw;
     
 }
 
@@ -93,7 +90,7 @@ button:hover{
     margin-bottom: 50px;
 }
 
-.PR-Profile-About-Left h1{
+.PR-Profile-h1-Title{
     font-weight: bolder;
     margin-bottom: 10px;
     color: blue;
@@ -106,14 +103,8 @@ button:hover{
     border-radius: 25px;
 }
 
-
-/* .PR-Profile-Skill{
-    padding: 5vh 20vw 10vh  20vw ;
-} */
-
-.PR-Profile-Skill-Title{
-    margin-bottom: 50px;
-    color: blue;
+.PR-Profile-Project-Empty{
+    width: 165px;
 }
 
 .PR-Profile-Skill-MySkills{
@@ -146,3 +137,65 @@ button:hover{
     font-size: large;
     font-weight: bold;
 }
+
+.PR-Profile-Project-Title{
+    align-items: left;
+    padding: 15vh 0 5vh 0;
+}
+
+.PR-Profile-Prj-h1-Title{
+    color: blue;
+    
+    
+}
+
+
+.PR-Profile-Project-Other{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    gap: 40px;
+    
+}
+
+.PR-Profile-Project-Dtls{
+    border: 1px solid rgb(237, 231, 231);
+    /* padding: 25px; */
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px rgb(146, 140, 140);
+    padding: 5px 5px 5px 5px;
+    width: 18vw;
+    height: 50vh;
+}
+
+.PR-Profile-Project-Dtls img{
+    border-radius: 15px;
+    width: 18vw;
+    
+}
+
+.PR-Profile-Project-Dtls-tech{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+
+.PR-Profile-Project-Dtls-tech-dtls{
+    width: auto;
+    border: none;
+    background-color: rgb(125, 226, 226);
+    border-radius: 15px;
+    padding: 7px;
+    color: blue;
+}
+
+.PR-Profile-Prj-Cal-Tit{
+    font-weight: 700;
+    font-size: large;
+    padding: 10px 20px 10px 20px;
+}
+
+.PR-Profile-Prj-Cal-Desc{
+    padding: 10px 20px 10px 20px;
+}
+
