@@ -74,7 +74,7 @@ button:hover{
 }
  
 .PR-Profile-About{
-    padding: 5vh 17vw 10vh 17vw;
+    padding: 5vh 20vw 10vh  20vw ;
     
 }
 
@@ -104,4 +104,45 @@ button:hover{
     border: 2px solid blue;
     width: 140px;
     border-radius: 25px;
+}
+
+
+.PR-Profile-Skill{
+    padding: 5vh 20vw 10vh  20vw ;
+}
+
+.PR-Profile-Skill-Title{
+    margin-bottom: 50px;
+    color: blue;
+}
+
+.PR-Profile-Skill-MySkills{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.PR-Profile-Skill-MySkills-Dtls{
+    text-align: center;
+    width: 8vw;
+    border: 1px solid rgb(184, 178, 178);
+    border-radius: 15px;
+    height: 25vh;
+    padding: 25px 10px 45px 10px;
+    box-shadow: 2px 2px 2px  rgb(175, 172, 172);
+    
+    
+}
+
+.PR-Profile-Skill-MySkills-Dtls :first-child{
+    color: rgb(33, 156, 233);
+    font-size: 50px;
+}
+
+.PR-Profile-Skill-MySkills-Dtls-Tit{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
 }
