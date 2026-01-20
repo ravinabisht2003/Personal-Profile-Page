@@ -3,24 +3,23 @@
     padding: 0;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
-    max-width: fit-content;
     font-family: 'Courier New', Courier, monospace;
-    max-width: auto;
 }
+
 
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 500px;
+    justify-content: space-between;
     padding: 35px;
     background-color: rgb(15, 15, 81);
     color: white;
     position: sticky;
     top: 0;
+
 }
 
 
@@ -28,7 +27,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
 
 }
 
@@ -36,6 +34,7 @@ header {
     list-style: none;
     font-size: larger;
     font-weight: bolder;
+    padding: 25px;
 
 }
 
@@ -78,7 +77,7 @@ button:hover {
     color: black;
 }
 
-.PR-Profile-About {
+/* .PR-Profile-About {
     padding: 5vh 15vw 20vh 15vw;
 
 }
@@ -168,7 +167,7 @@ button:hover {
 
 .PR-Profile-Project-Dtls {
     border: 1px solid rgb(237, 231, 231);
-    /* padding: 25px; */
+     padding: 25px; 
     border-radius: 25px;
     box-shadow: 2px 2px 2px 2px rgb(146, 140, 140);
     padding: 5px 5px 5px 5px;
@@ -206,38 +205,23 @@ button:hover {
 .PR-Profile-Prj-Cal-Desc {
     padding: 10px 40px 10px 40px;
 
-}
+} */
 
 /* Responsive */
 
-@media (max-width: 754px) and (min-width:100px) {
-
+@media (max-width:750px) {
     header {
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        gap: 0;
+    }
+
+}
+
+@media (max-width:400px) {
+    .HD-Person-Nav ul {
+        display: flex;
+        flex-direction: column;
+        font-size: x-small;
         padding: 0;
-        background-color: rgb(15, 15, 81);
-        color: white;
-        position: sticky;
-        top: 0;
-
-
     }
-
-    .PR-Profile-Project-Other {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .PR-Profile-About{
-        padding: 0;
-        flex-direction: column;
-        flex-wrap: wrap;
-
-    }
-
-
 }
