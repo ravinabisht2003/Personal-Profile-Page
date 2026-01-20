@@ -14,7 +14,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 35px;
+    padding: 3rem;
     background-color: rgb(15, 15, 81);
     color: white;
     position: sticky;
@@ -25,18 +25,21 @@ header {
 
 .HD-Person-Nav ul {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    list-style: none;
+    
+
 
 }
 
-.HD-Person-Nav ul li {
-    list-style: none;
+ .HD-Person-Nav ul li a{
+    text-decoration: none;
     font-size: larger;
     font-weight: bolder;
-    padding: 25px;
+    padding: 1rem;
+    color: white;
 
-}
+} 
 
 .PR-Profile {
     text-align: center;
@@ -216,7 +219,7 @@ button:hover {
     }
 
 }
-
+/* 
 @media (max-width:400px) {
     .HD-Person-Nav ul {
         display: flex;
@@ -224,4 +227,21 @@ button:hover {
         font-size: x-small;
         padding: 0;
     }
+} */
+
+@media (max-width: 550px) {
+
+     .HD-Person-Nav ul {
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+    }
+
+    .HD-Person-Nav ul li a {
+        gap: 5rem;
+        color: red;
+    }
+    
+
+  
 }
