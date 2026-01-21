@@ -43,12 +43,10 @@ header {
 
 .PR-Profile {
     text-align: center;
-    padding-top: 35px;
+    padding-top: 8rem;
     background: rgb(42, 168, 218);
     color: white;
-    padding-bottom: 20px;
-
-
+    padding-bottom: 5rem;
 }
 
 .PR-Profile img {
@@ -81,8 +79,7 @@ button:hover {
 }
 
  .PR-Profile-About {
-    padding: 5vh 15vw 20vh 15vw;
-
+    padding: 9rem 15vw 20vh 15vw;
 }
 
 .PR-Profile-About-Desc-Img {
@@ -109,9 +106,10 @@ button:hover {
 
 .PR-Profile-About-Empty {
     border: 2px solid blue;
-    width: 140px;
+    width: 150px;
     border-radius: 25px;
 }
+
 
 .PR-Profile-Project-Empty {
     width: 165px;
@@ -121,7 +119,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     text-align: center;
-
+        
 }
 
 .PR-Profile-Skill-MySkills-Dtls {
@@ -132,8 +130,22 @@ button:hover {
     height: auto;
     padding: 25px 10px 45px 10px;
     box-shadow: 2px 2px 2px rgb(175, 172, 172);
+    cursor: pointer;
+    transition: all 0.5s ease;
 
 
+}
+
+.PR-Profile-Skill-MySkills-Dtls:hover{
+    transform: scale(1.05);
+}
+
+
+
+.PR-Profile-Skill-Empty{
+    border: 2px solid blue;
+    width: 170px;
+    border-radius: 25px;
 }
 
 .PR-Profile-Skill-MySkills-Dtls :first-child {
@@ -168,6 +180,10 @@ button:hover {
 
 }
 
+.PR-Profile-Project {
+    padding: 4rem 15vw 20vh 15vw;
+}
+
 .PR-Profile-Project-Dtls {
     border: 1px solid rgb(237, 231, 231);
      padding: 25px; 
@@ -184,10 +200,17 @@ button:hover {
 
 }
 
+.PR-Profile-Project-Empty{
+    border: 2px solid blue;
+    width: 210px;
+    border-radius: 25px;
+}
+
 .PR-Profile-Project-Dtls-tech {
     display: flex;
     justify-content: space-between;
     padding: 10px 40px 10px 40px;
+    
 }
 
 .PR-Profile-Project-Dtls-tech-dtls {
@@ -215,6 +238,8 @@ button:hover {
 .PR-Profile-Get{
     background-color: rgb(85, 110, 201);
     color: white;
+    padding: 2rem 15vw 20vh 15vw;
+
 }
 
 .PR-Profile-Get-Dtls{
@@ -242,6 +267,11 @@ button:hover {
    padding: 8px;
 }
 
+.PR-Profile-Get-Empty{
+    border: 2px solid blue;
+    width: 230px;
+    border-radius: 25px;
+}
 
 .PR-Profile-Get-Right-othr input{
     margin-bottom: 1rem;
