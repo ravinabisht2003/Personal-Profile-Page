@@ -212,11 +212,52 @@ button:hover {
 
 /* Get In Touch */
 
+.PR-Profile-Get{
+    background-color: rgb(85, 110, 201);
+    color: white;
+}
+
 .PR-Profile-Get-Dtls{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 5rem;
+    font-size: 15px;
 }
+ 
+.PR-Profile-Get-Dtls-Left-Tit{
+    padding-bottom: 2rem;
+}
+
+.PR-Profile-Get-Left-Othr{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.PR-Profile-Get-Left-Othr span{
+   font-size: 15px;
+   background-color: rgb(124, 195, 231);
+   border: none;
+   border-radius: 25px;
+   padding: 8px;
+}
+
+
+.PR-Profile-Get-Right-othr input{
+    margin-bottom: 1rem;
+}
+
+.PR-Profile-Input-Name{
+    width: 25rem;
+    height: 2rem;
+}
+
+.PR-Profile-Input-Msg{
+    width: 25rem;
+    padding-bottom: 80px;
+}
+
+
 
 /* Responsive */
 
