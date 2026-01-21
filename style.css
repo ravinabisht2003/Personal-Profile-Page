@@ -235,7 +235,7 @@ button:hover {
 }
 
 .PR-Profile-Get-Left-Othr span{
-   font-size: 15px;
+   font-size: 25px;
    background-color: rgb(124, 195, 231);
    border: none;
    border-radius: 25px;
@@ -250,24 +250,48 @@ button:hover {
 .PR-Profile-Input-Name{
     width: 25rem;
     height: 2rem;
+    
 }
 
 .PR-Profile-Input-Msg{
     width: 25rem;
-    padding-bottom: 80px;
+    padding-top: 5px;
+    padding-bottom: 85px;
+}
+
+.PR-Profile-Others{
+    background-color: rgb(15, 15, 81);
+    text-align: center;
+    color: white;
+    padding-top: 5rem;
+}
+
+.PR-Profile-Others-com{
+    margin-bottom: 2rem;
+}
+
+
+.PR-Profile-Other-Social i{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+.PR-Profile-Others-Front{
+    font-size: 20px;
 }
 
 
 
 /* Responsive */
 
-@media (max-width:750px) {
+/* @media (max-width:750px) {
     header {
         display: flex;
         flex-direction: column;
     }
 
-}
+} */
 /* 
 @media (max-width:400px) {
     .HD-Person-Nav ul {
@@ -277,7 +301,7 @@ button:hover {
         padding: 0;
     }
 } */
-
+/* 
 @media (max-width: 550px) {
 
      .HD-Person-Nav ul {
@@ -293,4 +317,4 @@ button:hover {
     
 
   
-}
+} */
