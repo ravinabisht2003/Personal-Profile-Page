@@ -210,6 +210,14 @@ button:hover {
 
 } 
 
+/* Get In Touch */
+
+.PR-Profile-Get-Dtls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Responsive */
 
 @media (max-width:750px) {
